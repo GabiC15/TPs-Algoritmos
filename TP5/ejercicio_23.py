@@ -60,7 +60,6 @@ insertar_nodo(arbol, 'Pitón', {'derrotado_por': 'Apolo', 'descripcion': None, '
 insertar_nodo(arbol, 'Cierva de Cerinea', {'derrotado_por': None, 'descripcion': None, 'capturada': None})
 insertar_nodo(arbol, 'Basilisco', {'derrotado_por': None, 'descripcion': None, 'capturada': None})
 insertar_nodo(arbol, 'Jabalí de Erimanto', {'derrotado_por': None, 'descripcion': None, 'capturada': None})
-insertar_nodo(arbol, 'Cierva Cerinea', {'derrotado_por': None, 'descripcion': None, 'capturada': None})
 
 # Punto A
 inorden_criatura(arbol)
@@ -103,7 +102,7 @@ print()
 # Punto H
 busqueda(arbol, 'Cerbero')['datos']['capturada'] = 'Heracles'
 busqueda(arbol, 'Toro de Creta')['datos']['capturada'] = 'Heracles'
-busqueda(arbol, 'Cierva Cerinea')['datos']['capturada'] = 'Heracles'
+busqueda(arbol, 'Cierva de Cerinea')['datos']['capturada'] = 'Heracles'
 busqueda(arbol, 'Jabalí de Erimanto')['datos']['capturada'] = 'Heracles'
 
 print()
